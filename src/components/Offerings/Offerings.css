@@ -1,0 +1,76 @@
+.offering-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.offering-title {
+  color: #2554ae;
+  text-align: left;
+  font-family: Canelatext Trial, sans-serif;
+  font-size: 48px;
+  padding-left: 150px;
+  order: -1;
+}
+
+.offering-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 65%;
+  margin: auto;
+  gap: 60px;
+  font-size: 20px;
+  padding-left: 40px;
+}
+
+.offering-left {
+  flex: 1;
+  line-height: 1.6;
+}
+
+.offering-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  padding: -50px;
+}
+
+.offering-right img {
+  width: 330px;
+}
+.offering-right h1 {
+  text-align: center;
+  font-size: 23px;
+  line-height: 3.5;
+}
+
+.offering-right p{
+    text-align: center;
+    font-size: 25px;
+    line-height: 2.5;
+}
+
+.offering-right button {
+  width: 270px;
+  height: 75px;
+  min-width: 130px;
+  text-align: center;
+  color: white;
+  background-color: #2554ae;
+  border-radius: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 3.5;
+}
+
+.offer-text{
+    color: #2554ae;
+}
+.check-icon {
+  margin-right: 5px;
+  color: #00aa00; 
+}
+
+

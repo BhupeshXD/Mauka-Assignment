@@ -1,0 +1,103 @@
+.features-container {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.features-headings h5 {
+  margin-top: 120px;
+  text-align: right;
+  padding-right: 150px;
+}
+
+.features-headings h1 {
+  text-align: right;
+  font-size: 3em;
+  color: #2554ae;
+  margin-bottom: 70px;
+  padding-right: 150px;
+}
+
+.featurebox-1 {
+  width: 350px;
+  height: 580px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.featurebox-1 p {
+  font-size: 30px;
+}
+
+.featurebox-2 {
+  width: 538px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.featurebox-2 p {
+  font-size: 30px;
+}
+
+.featurebox-3 {
+  width: 255px;
+  height: 332px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+.featurebox-3 p {
+  font-size: 28px;
+}
+.featurebox-4 {
+  width: 226px;
+  height: 332px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.featurebox-4 p {
+  font-size: 28px;
+}
+
+.features-container {
+  display: flex;
+  flex-direction: row;
+  row-gap: -20px;
+}
+.container-inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.featurebox-2,
+.featurebox-3,
+.featurebox-4 {
+  margin: 5px;
+}
+.featurebox-1 {
+  margin: 12px;
+}
+
+.feature-button {
+  width: 270px;
+  height: 75px;
+  min-width: 130px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.feature-btn {
+  display: flex;
+  justify-content: center;
+}

@@ -4,7 +4,6 @@
 }
 
 .features-headings h5 {
-  margin-top: 120px;
   text-align: right;
   padding-right: 150px;
 }
@@ -17,7 +16,7 @@
   padding-right: 150px;
 }
 
-.featurebox-1 {
+.featurebox-1  {
   width: 350px;
   height: 580px;
   border: 2px solid black;
@@ -26,8 +25,17 @@
   padding: 20px;
 }
 
+.featurebox-1{
+  font-size:  1em;
+}
+
 .featurebox-1 p {
   font-size: 30px;
+}
+.featurebox-1 img {
+  position: relative;
+  height: 360px;
+  width: 322px;
 }
 
 .featurebox-2 {
@@ -38,6 +46,13 @@
   padding: 20px;
 }
 
+.featurebox-2 img{
+  position: relative;
+  width: 188px;
+  height: 119px;
+  bottom: 45px;
+  left: 25px;
+}
 .featurebox-2 p {
   font-size: 30px;
 }
@@ -94,6 +109,8 @@
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
   text-transform: uppercase;
 }
 

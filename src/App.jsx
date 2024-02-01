@@ -7,6 +7,7 @@ import How from './components/How/How'
 import GetAccess from './components/GetAccess/GetAccess'
 import Navbar from './components/Navbar/Navbar'
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 function App() {
   
@@ -15,16 +16,14 @@ function App() {
     <>
     <Navbar />
     <Header />
-    <Offerings/>
-    <Features />
-    <Routes>
-      <Route path="/offerings" element={<Offerings />} />
-      <Route path="/features" element={<Features />} />
-      <Route path="/how" element={<How />} />
-      <Route path="/whyus" element={<WhyUs />} />
-      <Route path="/getaccess" element={<GetAccess />} />
-    </Routes>
-      
+    <Footer/>
+ <Routes>
+  <Route path="/offerings" element={<Offerings />} />
+  <Route path="/features" element={<Features />} />
+  <Route path="/whyus" element={<WhyUs />} />
+  <Route path="/how" element={<How />} />
+  <Route path="/getaccess" element={<GetAccess />} />
+ </Routes>
     </>
   )
 }

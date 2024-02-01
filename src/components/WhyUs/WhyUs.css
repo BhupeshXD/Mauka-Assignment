@@ -1,0 +1,38 @@
+.whyus-container{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.whyus-heading {
+color: #2554ae;
+text-align: center;
+margin-bottom: 100px;
+font-family: Canelatext Trial, sans-serif;
+font-size: 1.6em;
+}
+
+.whyus-para p{
+    font-size: 20px;
+    text-align: center ;
+    line-height: 48px;
+}
+
+.get-access-btn{
+    width: 270px;
+  height: 75px;
+  min-width: 130px;
+  text-align: center;
+  color: white;
+  background-color: #2554ae;
+  border-radius: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  margin: -25px;
+}
+
+.whyus-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+

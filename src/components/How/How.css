@@ -1,0 +1,134 @@
+/* How.css */
+.how-main{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.how-heading h1{
+    color: #2554ae;
+    text-align: left;
+    font-size: 3.5em;
+}
+
+/* Add styles for the container */
+.how-container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.how-section-1 {
+  display: flex;
+  flex-direction: row;
+}
+.how-section-1 img {
+  height: 500px;
+  width: 600x;
+  margin-left: 80px; /* Adjust as needed for spacing */
+}
+
+
+.how-1,
+.how-2 {
+  width: 100%; 
+  margin-bottom: 20px;
+ 
+}
+
+.how-1 h5{
+    color: #9e9c9c;
+}
+.how-1 h1{
+    font-size: 2em;
+    line-height: 0.3;
+}
+.how-1 p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.how-1 i{
+    color: #2554ae;
+}
+
+.how-2 h5{
+    color: #9e9c9c;
+}
+.how-2 h1{
+    font-size: 2em;
+    line-height: 0.3;
+}
+.how-2 p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.how-2 i{
+    color: #2554ae;
+}
+
+.how-3 h5{
+    color: #9e9c9c;
+}
+.how-3 h1{
+    font-size: 2em;
+    line-height: 0.3;
+}
+.how-3 p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.how-3 i{
+    color: #2554ae;
+}
+
+.how-4 h5{
+    color: #9e9c9c;
+}
+.how-4 h1{
+    font-size: 2em;
+    line-height: 0.3;
+}
+.how-4 p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.how-4 i{
+    color: #2554ae;
+}
+
+
+
+.how-section-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+/* Additional styling for how-container-2 */
+.how-container-2 {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.how-section-2 img {
+  margin-right: 20px;
+  height: 500px;
+  width: 600x;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .how-container-1,
+  .how-container-2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .how-1,
+  .how-2 {
+    width: 100%;
+  }
+}
